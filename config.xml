@@ -1,0 +1,8 @@
+<UserScriptConfig>
+	<Script filename="origin_server.user.js" name="origin server" namespace="tv.com" description="reads the tv.com origin server" enabled="true" basedir="origin_server">
+		<Include>*www.tv.com/*</Include>
+	</Script>
+	<Script filename="version.user.js" name="version" namespace="tv.com" description="what version of the site are we running?" enabled="true" basedir="version">
+		<Include>*www.tv.com/*</Include>
+	</Script>
+</UserScriptConfig>
